@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 500px;
+    align-items: center;
+    background-color: #72d5ff;
+    border: 2px dashed rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+h2{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
+    width: 200px;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-family: 'Press Start 2P', cursive;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.movimentos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2px;
+    color: black;
+    padding: 8px;
+    width: 300px;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    background-color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: lighter;
+}
+
+
+
+button{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: aliceblue;
+    width: 150px;
+    padding: 5px;
+    border: 2px solid red;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    font-size: 8px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+
+h3{
+    margin-top: 0;
+    font-size: 9px;
+}
+
+summary{
+    margin-left: 15px;
+}
+
+p{
+    margin-top: 5px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+#contador{
+    text-align: center;
+    font-size: 10px;
+    margin: 0 auto;;
+}
+
+#criandoTorres{
+    margin: 0 auto;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    padding: 15px;
+
+}
+
+.torre1{
+    background-color: #c84c0c;
+    border: 2px solid black;
+    width: 15px;
+    height: 120px;
+    margin-top: 10px;
+    border-radius: 5px 5px 0 0;
+    display: flex; 
+    flex-direction: column-reverse; 
+    align-items: center;
+}
+
+.torre2{
+    background-color: #c84c0c;
+    border: 2px solid black;
+    width: 15px;
+    height: 120px;
+    margin-top: 10px;
+    border-radius: 5px 5px 0 0;
+    display: flex; 
+    flex-direction: column-reverse; 
+    align-items: center;
+}
+
+.torre3{
+    background-color: #c84c0c;
+    border: 2px solid black;
+    width: 15px;
+    height: 120px;
+    margin-top: 10px;
+    border-radius: 5px 5px 0 0;
+    display: flex; 
+    flex-direction: column-reverse; 
+    align-items: center;
+}
+
+.bloco5{
+    display: flex;
+    background-color: #44b033;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px;
+    width: 25px;
+    height: 5px;
+    border-radius: 5px;
+}
+
+.bloco4{
+    display: flex;
+    background-color: #fad100;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px;
+    width: 36px;
+    height: 5px;
+    border-radius: 5px;
+}
+
+.bloco3{
+    display: flex;
+    background-color: #0168e7;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px;
+    width: 48px;
+    height: 5px;
+    border-radius: 5px;
+}
+
+.bloco2{
+    display: flex;
+    background-color: #de0011;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px;
+    width: 59px;
+    height: 5px;
+    border-radius: 5px;
+}
+
+.vitoriaOk{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 0, 0);
+    width: 300px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    transition: all 2s;
+    line-height: 20px;
+}
+
+/*.bloco1{
+    display: flex;
+    background-color: #03bc00;
+    padding: 5px;
+    width: 52px;
+    height: 3px;
+    border-radius: 5px;
+}*/
+
+@media (min-width: 768px) {
+    body{
+        margin-top: 28px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 600px;
+        height: 600px;
+        border: 4px dashed black;
+        border-radius: 10px;
+    }
+
+    h2{
+        font-size: 20px;
+        padding: 16px;
+        width: 300px;
+        border: 4px solid black;
+        border-radius: 10px;
+    }
+
+    .movimentos{
+        padding: 16px;
+        width: 300px;
+        border: 4px solid black;
+        border-radius: 10px;
+
+    }
+
+    h3{
+        font-size: 12px;;
+    }
+    
+    #criandoTorres{
+        margin: 0 auto;
+        display: flex; 
+        flex-direction: row; 
+        justify-content: space-around;
+        width: 550px;
+        padding: 20px;
+    }
+    
+    .torre1{
+        border: 3px solid black;
+        width: 20px;
+        height: 200px;
+    }
+    
+    .torre2{
+        border: 3px solid black;
+        width: 20px;
+        height: 200px;
+    }
+    
+    .torre3{
+        border: 3px solid black;
+        width: 20px;
+        height: 200px;
+    }
+    
+    .bloco5{
+        padding: 10px;
+        width: 35px;
+    }
+    
+    .bloco4{
+        padding: 10px;
+        width: 50px;
+    }
+    
+    .bloco3{
+        padding: 10px;
+        width: 64px;
+    }
+    
+    .bloco2{
+        padding: 10px;
+        width: 76px;
+    }
+
+    .vitoriaOk{
+        width: 500px;
+        padding: 8px;
+        border: 4px solid rgb(0, 0, 0);
+        border-radius: 8px;
+        font-size: 11px;
+    }
+    
+}

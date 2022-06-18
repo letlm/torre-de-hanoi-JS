@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Torre de Hanói</title>
+</head>
+
+<body>
+
+    <h2>Torre de Hanói</h2>
+    
+    <details>
+        <summary>Regras do Jogo</summary>
+        <p>A torre de hánoi é um quebra-cabeça estratégico, constituído de três torres e discos sobrepostos em ordem decrescente na primeira torre. O objetivo do jogo é mover todos os discos para a última torre, de modo que permaneçam em ordem decrescente (peça maior será a base e a peça menor o ápice). Vence o jogo quem conseguir mover todos os discos para a última torre em menor número de movimentos. Referência: <a href="https://pt.wikipedia.org/wiki/Torre_de_Han%C3%B3i">Wikipédia</a></p>
+    </details>
+
+
+    <section id="criandoTorres"></section>
+    <section class="criandoBlocos"></section>
+
+    <section class="movimentos">
+        <h3>Movimentos realizados:</h3>
+        <p id="contador">0</p>
+        <button id="resetar">Resetar jogo</button>
+    </section>
+
+    <div class="vitoria">
+        <span></span>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
